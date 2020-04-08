@@ -23,15 +23,19 @@
 
 ```
 
-# gpg
+# gpg 
+
+```
+sudo apt install dirmngr
+```
 
 - gpg --gen-key
 - gpg --list-keys
-- gpg --keyserver hkp://keyserver.ubuntu.com:11371 --send-keys AE61C8EF3E231F8816BB8904E6230AA6C3EF03BD
-- gpg --keyserver hkp://keyserver.ubuntu.com:11371 --receive-keys AE61C8EF3E231F8816BB8904E6230AA6C3EF03BD
+- gpg --keyserver hkp://keyserver.ubuntu.com:11371 --send-keys 58455D6C0721AECFE4A8693E2F4725171700C6FD
+- gpg --keyserver hkp://keyserver.ubuntu.com:11371 --receive-keys 58455D6C0721AECFE4A8693E2F4725171700C6FD
 
 # deploy
 
-mvn clean deploy -P sonatype-oss-release -Dgpg.passphrase=AE61C8EF3E231F8816BB8904E6230AA6C3EF03BD
-
+mvn clean deploy -P sonatype-oss-release -Dgpg.passphrase=58455D6C0721AECFE4A8693E2F4725171700C6FD
+> 密码: wums0613
 
