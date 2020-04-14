@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/common-dependency/common.svg?branch=master)](https://travis-ci.com/common-dependency/common)
+
 [![](https://img.shields.io/badge/author-wumingsheng-green.svg)](https://champyin.com)
 
 
