@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/common-dependency/common.svg?branch=master)](https://travis-ci.com/common-dependency/common)
+
+
 # maven中央仓库账号
 
 * username: woms
