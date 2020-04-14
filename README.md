@@ -3,6 +3,8 @@
 [![GitHub issues](https://img.shields.io/github/issues/common-dependency/common)](https://github.com/common-dependency/common/issues)
 [![GitHub stars](https://img.shields.io/github/stars/common-dependency/common)](https://github.com/common-dependency/common/stargazers)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.common-dependency/common/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.common-dependency/common)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![Docker Pull](https://img.shields.io/docker/pulls/xuxueli/xxl-job-admin)](https://hub.docker.com/)
 # maven中央仓库账号
 
 * username: woms
