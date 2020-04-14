@@ -1,1 +1,9 @@
 language: java
+jdk: oraclejdk8
+
+env:
+  global:
+  - secure: "....encrypted sonar token here....."
+  
+script:
+- mvn clean package
