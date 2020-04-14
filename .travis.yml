@@ -18,8 +18,8 @@ before_install:
 - docker pull openjdk:8-jdk-alpine
 script:
 - mvn clean package
-- docker build -t wums/common:0.0.$TRAVIS_BUILD_NUMBER .
-- docker push wums/common:0.0.$TRAVIS_BUILD_NUMBER
+- docker build -t wums/common:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID-TRAVIS_BUILD_NUMBER .
+- docker push wums/common:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID-TRAVIS_BUILD_NUMBER
 
 
 
