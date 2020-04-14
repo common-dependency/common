@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/common-dependency/common.svg?branch=master)](https://travis-ci.com/common-dependency/common)
 
 [![](https://img.shields.io/badge/author-wumingsheng-green.svg)](https://champyin.com)
-
+[![GitHub issues](https://img.shields.io/github/issues/common-dependency/common)](https://github.com/common-dependency/common/issues)
 
 # maven中央仓库账号
 
